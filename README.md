@@ -28,6 +28,7 @@ When the app is installed the registration then happens with this service, the a
 ## ToDos
 
 - [ ] heavily cache installed app reads from app side (+ invalidate on changes)
-- [ ] implement endpoints for shopware lifecycle (update shopware, uninstall app, ...)
+  - not sure if it is possible or makes sense, as in order to validate the auth we need to do a DB request anyway
+- [x] implement endpoints for shopware lifecycle (update shopware, uninstall app, ...)
 - [ ] implement webhooks for apps to register (e.g. onInstall onUpdate etc + handle auth)
 - [ ] provide sdk and include in the js sdk

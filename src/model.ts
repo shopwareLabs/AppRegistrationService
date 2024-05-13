@@ -21,6 +21,7 @@ export class InstalledAppEntity {
         public apiKey: string|undefined,
         public secretKey: string|undefined,
         public shopSecret: string,
+        public appVersion: string,
         public shop: ShopEntity,
         public app: AppEntity
     ) {}
