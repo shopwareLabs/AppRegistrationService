@@ -1,0 +1,8 @@
+POST http://localhost:8787/app
+
+{
+"appName": "RegistrationTest",
+"secret": "secret1"
+}
+
+
